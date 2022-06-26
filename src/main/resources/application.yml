@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+cloud:
+  aws:
+    stack:
+      auto: false
+server:
+  servlet:
+    context-path: /backend-for-frontend
+service:
+  dns: http://ecs-public-alb-2013260696.ap-northeast-1.elb.amazonaws.com
